@@ -471,10 +471,7 @@ body:hover .cursor-glow {
 
 /* ===== ABOUT ===== */
 .about-grid {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 48px;
-  align-items: start;
+  max-width: 720px;
 }
 
 .about-text p {
